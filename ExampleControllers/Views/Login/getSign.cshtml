@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "getSign";
+}
+
+<h2>Welcome To Login</h2>
+<table class="table" border="1" >
+    <tr>
+        <th>
+           @Html.Label("Login Name")
+        </th>
+        <th>
+           @Html.TextBox("Login Name", null, new { @class = "form-control" }) 
+        </th>
+    </tr>
+
+   <tr>
+       <th>@Html.Label("Password") </th>
+       <th>@Html.TextBox("Password", null, new { @class = "form-control" }) </th>
+        </tr>
+  
+</table>
+
